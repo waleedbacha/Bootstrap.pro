@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+
+    <a class="navbar-brand" href="#"> Coder </a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+    <li><a href="#home">home</a></li>
+    <li><a href="#services">services</a></li>
+    <li><a href="#pricing">pricing</a></li>
+    <li><a href="#mission">mission</a></li>
+    <li><a href="#team">team</a></li>
+    <li><a href="#clients">clients</a></li>
+    <li><a href="#contact">contact</a></li>
+    <li class="dropdown">  
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Login</b> <span class="caret"></span></a>
+    <ul id="login_dp" class="dropdown-menu">
+    <li>
+    <div class="row">
+    <div class="col-md-12">Login via
+    <div class="social-buttons"> 
+
+    <a href="#" class="btn btn-fb"><i class="fab fa-facebook"></i>Facebook</a>   
+    <a href="#" class="btn btn-tw"><i class="fab fa-twitter"></i>twitter</a>   
+    </div>    
+    <form action="login" class="form" method="post" role="form" accept-charset="UTF-8" id="login-now">
+    <div class="form-group">
+    <label class="sr-only" for="InputEmail">Input email</label>
+    <input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email adress" required>    
+    </div>
+    <div class="form-group">
+    <label class="sr-only" for="InputPassword" >Password</label>
+    <input type="password" name="password" class="form-control" id="InputPassword"  placeholder="Password" required>
+    <div class="help-block text-right"><a href="#">Forget the password?</a></div>
+    </div>
+    <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-block" id="Signup-button">Sign in</button>   
+    </div>
+    <div class="checkbox">
+     <label>
+     <input type="checkbox" name="checkbox"> Keep me log in.   
+     </label>   
+    </div>
+    </form>
+    </div>
+     <div class="bottom text-center">
+      New here? <a href="#">Join us now!</a>  
+     </div>
+      </div>
+        </li>
+         </ul>
+          </li>
+           </ul> 
+           </div>
+            </div>
+             </div>
+
+
+            <!-- header section -->
+
+    <div id="header" class="header">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-12 col-md-12">
+    <h1 class="wow animate__bounceIn" data-wow-delay="0.5s">CODER<span><sup>&reg;</sup></span></h1>
+    <h3 class="wow animate__bounceIn" data-wow-delay="0.5s">Data driven approach to increase your sells</h3>
+    </div>
+    <div class="flex-container">
+    <div class="btn-grp">
+    <button id="aa" class="flex-1 btn btn-lg btn-primary wow animate__fadeOutY" data-wow-delay="0.5s">Get started</button>
+    <button id="bb" class="flex-2 btn btn-lg btn-primary wow animate__flipOutY" data-wow-delay="0.5s"> View details</button>
+    </div>   
+    </div>
+    </div>    
+    </div>
+    </div>
+
+     <!-- Services section  --> 
+
+    <div id="services" class="services">
+    <div class="container">
+    <h2 class="wow animate__bounceOut">services</h2>
+    <p class="wow animate__bounceOut">We offer the following best services.</p>
+    <div class="row">
+    <div class="col-lg-3 col-md-3">
+    <img class="img" src="images/computer.png" alt="">
+    <h4>web services</h4>
+    <p>Innovative and responsive modern web design and development.</p>    
+    </div>
+    <div class="col-lg-3 col-md-3">
+    <img class="img" src="images/mobile.png" alt="">
+    <h4>Mobile development</h4>
+    <p>Mobile app and application development.</p>    
+    </div> 
+    <div class="col-lg-3 col-md-3">
+    <img class="img" src="images/illustration.png" alt="">
+    <h4>Marketing analysis</h4>
+    <p>We are here to accuratly analize the market competators.</p>    
+    </div>   
+    <div class="col-lg-3 col-md-3">
+    <img class="img" src="images/OIP.jpeg" alt="">
+    <h4>Cloud finance</h4>
+    <p>Your cloud partner, grab the best oppurtunity.</p>    
+    </div>   
+    </div>
+    </div>
+    </div>
+   
+
+    <!-- Sales section  -->
+
+    <div class="sales" id="sales">
+    <div class="container">
+    <div class="col-lg-6 col-md-6" id="left-side">
+    <img src="images/sales.jpeg" alt="" class="img-responsive center-block">   
+    </div>
+    <div class="col-lg-6 col-md-6" id="right-side">
+    <h1>Increase your online sales upto 60%.</h1>
+    <p>We are commited to strategize and redefine your maeketing strategies.</p>    
+    <p>Experience increase gradually in your online sales with our sales experts.</p>
+    </div>    
+    </div>
+    </div>
+
+    <!-- Pricing section  -->
+
+    <div class="pricing" id="pricing">
+    <div class="container">
+    <div class="row">
+    <h2>Join us now</h2>
+    <p>Market compatibale price with much benefits.</p>
+    <div class="col-lg-4 col-md-4">
+    <div class="packages" id="flip1">
+    <h4>Bronzes</h4>
+    <h1>120$</h1>
+    <b>Monthly</b>
+    <p>This is our bronze package.</p>
+    
+    
+    <li>Websites</li>
+    <li>Free site maintainance</li>
+    <li>Monthly market analysis reprt</li>
+    <li>Single account login</li>
+
+    <button class="btn btn-success">Get started</button>
+    </div>
+    </div>      
+
+    <div class="col-lg-4 col-md-4">
+        <div class="packages" id="flip2">
+        <h4>Silver</h4>
+        <h1>190$</h1>
+        <b>Monthly</b>
+        <p>This is our silver package.</p>
+        
+        
+        <li>Responsive Websites and apps.</li>
+        <li>Free hosting for data upto 20gb.</li>
+        <li>Weakly market analysis reprt</li>
+        <li>5 user accounts.</li>
+
+        <button class="btn btn-success">Get started</button>
+        </div>   
+        </div>   
+        <div class="col-lg-4 col-md-4">
+        <div class="packages" id="flip3">
+        <h4>Gold</h4>
+        <h1>290$</h1>
+        <b>Monthly</b>
+        <p>This is our Gold package.</p>
+        
+            
+        <li>Responsive Websites and apps.</li>
+        <li>Free hosting for data upto 50gb.</li>
+        <li>Daily market analysis reprt</li>
+        <li>10 user accounts.</li>
+
+        <button class="btn btn-success">Get started</button>
+        </div>  
+    </div>   
+    </div>   
+    </div>
+    </div>
+
+     <!-- Mission section  -->
+
+    <div class="mission" id="mission">
+    <div class="container">
+    <div class="col-lg-6 col-md-6" id="left-side">
+    <h1>Why we are different?</h1>
+    <p>Our mission is to deliver best sales results and to grow your brand in the digital realme. we use the most update tech for web services and only aim to grow your brand to the top.  </p>
+    <p>We have 7 years of experience in delivering the best services all over the world, and we belive that your brand will grow.</p>    
+    </div>
+    <div class="col-lg-6 col-md-6" id="right-side">
+    <img src="" alt="">    
+    </div>
+    </div>   
+    </div>
+
+        <!-- Client section  -->
+
+    <div class="client" id="client">
+    <div class="container">
+    <div class="row">
+    <h2>Trusted By</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi sed pariatur atque blanditiis. </p>
+    <div class="col-lg-3 col-md-3">
+    <li><img src="images/amazon.png" alt=""></li>    
+    </div>
+    <div class="col-lg-3 col-md-3">
+    <li><img src="images/bmw.jpeg" alt=""></li>    
+    </div>
+    <div class="col-lg-3 col-md-3">
+    <li><img src="images/ebay.png" alt=""></li>    
+    </div>
+    <div class="col-lg-3 col-md-3">
+    <li><img src="images/google.jpeg" alt=""></li>    
+    </div>
+    </div>
+    </div>   
+    </div>    
+
+         <!-- Team section  -->
+
+    <div class="team" id="team">
+    <div class="container">
+    <div class="row">
+    <h2>Meet Our Team</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iusto magni volupti aperiam.</p>
+    <div class="col-lg-3 col-md-3">
+    <img src="images/team1.png" alt="" class="img-circle">
+    <h4>Waleed</h4>
+    <b>CEO</b>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>   
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-snapchat"></i></a>
+
+    </div>
+    <div class="col-lg-3 col-md-3">
+    <img src="images/team1.png" alt="" class="img-circle">
+    <h4>Waleed</h4>
+    <b>Manager</b>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>   
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a> 
+    <a href="#"><i class="fab fa-snapchat"></i></a>
+
+    </div>
+    <div class="col-lg-3 col-md-3">
+    <img src="images/team1.png" alt="" class="img-circle">
+    <h4>Waleed</h4>
+    <b>Director</b>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>   
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a> 
+    <a href="#"><i class="fab fa-snapchat"></i></a>
+
+    </div>   
+    <div class="col-lg-3 col-md-3">
+    <img src="images/team1.png" alt="" class="img-circle">
+    <h4>Waleed</h4>
+    <b>CTO</b>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>   
+    <a href="#" ><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a> 
+    <a href="#"><i class="fab fa-snapchat"></i></a>
+    </div>         
+    </div>    
+    </div>    
+    </div>
+
+             <!-- contact section  -->
+
+    <div class="contacts" id="contacts">
+    <div class="container">
+    <div class="row">
+    <h2>Contact us</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur. </p> 
+    <div class="col-lg-6 col-md-6">
+    <div class="input-group input-group-lg">
+    <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-user"></i></span> 
+    <input type="text" name="" class="form-control" aria-describedby="sizing-addon1" placeholder="Full name" >   
+    </div>
+    <div class="input-group input-group-lg">
+    <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-envelope"></i></span> 
+    <input type="text" name="" class="form-control" aria-describedby="sizing-addon1" placeholder="email adress" >   
+    </div>
+    <div class="input-group input-group-lg">
+    <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-lock"></i></span> 
+    <input type="text" name="" class="form-control" aria-describedby="sizing-addon1" placeholder="phone number" >   
+    </div>
+    </div> 
+    <div class="col-lg-6 col-md-6">
+    <div class="input-group">
+    <textarea  cols="80" rows="6" id="" class="form-control"></textarea>
+    </div>
+    <button class="btn btn-lg" >sumbit your message</button>   
+    </div>
+    </div>
+    </div>    
+    </div>         
+    
+     <!-- Footer section  -->
+
+    <div class="footer" id="footer">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-4 col-mg-4">
+    <h4>Contact us</h4>
+    <p><i class="fas fa-home"></i> Pakistan KPK</p>
+    <p><i class="fas fa-envelope"></i> cani@gmail.com</p>
+    <p><i class="fas fa-phone"></i> 03459270471</p>   
+    </div>
+    <div class="col-lg-4 col-mg-4">
+    <h4>About</h4>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>    
+        
+    <div class="col-lg-4 col-mg-4">
+    <h4>Stay in touch</h4>
+    <a href="#"><i class="social fab fa-facebook"></i></a>
+    <a href="#"><i class="social fab fa-twitter"></i></a>  
+    <a href="#"><i class="social fab fa-instagram"></i></a>  
+    <a href="#"><i class="social fab fa-pinterest"></i></a>  
+    <a href="#"><i class="social fab fa-linkedin"></i></a>  
+    
+    <input type="text" name="email" placeholder="submit your message">
+    <button type="submit" class="btn btn-success">subscribe</button> 
+    </div>        
+    </div>    
+    </div>    
+    </div> 
+   
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <script src="js/wow.min.js"> </script>
+    <script>
+    new WOW().init();    
+    </script>
+
+   
+
+
+
+
+</body>
+</html>
